@@ -1,0 +1,6 @@
+# ninja log v6
+1755	1844	7456179769590269	3__Basic_maths_C__.exe	c9e096ee091a38f4
+11	1754	7456179752164266	CMakeFiles/3__Basic_maths_C__.dir/main.cpp.obj	848a048474c03cf1
+3	259	7470721346447186	build.ninja	508832ec65862392
+64	954	7470722457429942	CMakeFiles/3__Basic_maths_C__.dir/SecondMax.cpp.obj	21aaff2f8dbe8bc7
+52	3454	7470722457309962	CMakeFiles/3__Basic_maths_C__.dir/main.cpp.obj	848a048474c03cf1

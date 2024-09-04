@@ -1,0 +1,21 @@
+INSERT INTO PROFESSOR (PROF_ID,PROF_NAME,EMAIL,MOBILE,SPECIALTY,DEPT_ID) VALUES 
+('PR128','Sanjay Prachand','sanjay.prachand128@medicaps.ac.in',8634139163,'Maths','DP101'),
+('PR129','Om Prakesh Patidar','om.patidar129@medicaps.ac.in',7963482081,'C++','DP101'),
+('PR130','Shankar Verma','shankar.verma130@medicaps.ac.in',9065395675,'DSA','DP104')
+('PR131','Sachin Hencha','sachin.hencha131@medicaps.ac.in',8759341536,'AI','DP105')
+('PR132','Vikas Gole','Vikas.gole132@medicaps.ac.in',7894852163,'English','DP102')
+;
+
+INSERT INTO department (DEPT_ID,DNAME,SCODE,PROF_ID) VALUES 
+('DP101','Department of Mathematics','SC001','PR128'),
+('DP102','Department of English','SC002','PR124'),
+('DP103','Department of Physical Education','SC003','PR125'),
+('DP104','Department of Computer Appication','SC004','PR101'),
+('DP105','Department of Computer Science','SC004','PR131'),
+;
+
+INSERT INTO school(SCODE,SCL_NAME,PROF_ID,LOCATION) VALUES 
+('SC001','School of Advanced Sciences','PR128','PRP');
+('SC002','School of Social Sciences and Lanaguages','PR132','SJT');
+('SC003','School of Sports','PR125','ISC');
+('SC004','School of Computer Science and Engineering','PR131','TT');
