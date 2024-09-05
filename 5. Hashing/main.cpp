@@ -4,22 +4,20 @@ using namespace std;
 
 void learnMap() {
     map<int,int> mpp;
-    int n;
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++) {
-        cin>>arr[i];
-
+    int arr[] = {3,4,1,5,2,1,2,1};
+    int len = sizeof(arr)/sizeof(int);
+    for(int i=0;i<len;i++) {
         mpp[arr[i]]++;
     }
-
-    int q;
-    cin>>q;
-    while(q--) {
-        int number;
-        cin>>number;
-        cout<<mpp[number]<<endl;
+    int maxFreqElement = 0;
+    int maxFreq = 0;
+    for(auto &it: mpp) {
+        if(it.second > maxFreq ) {
+            maxFreqElement = it.first;
+            maxFreq = it.second;
+        }
     }
+    cout<<"Max freq element is "<<maxFreqElement;
 }
 
 int main() {

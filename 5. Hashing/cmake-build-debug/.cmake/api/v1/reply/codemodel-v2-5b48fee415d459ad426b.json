@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Placement/DSA/Code/5. Hashing/cmake-build-debug",
-		"source" : "E:/Placement/DSA/Code/5. Hashing"
+		"build" : "E:/Placement/DSA/5. Hashing/cmake-build-debug",
+		"source" : "E:/Placement/DSA/5. Hashing"
 	},
 	"version" : 
 	{

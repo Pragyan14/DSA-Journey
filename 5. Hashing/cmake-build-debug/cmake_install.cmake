@@ -1,4 +1,4 @@
-# Install script for directory: E:/Placement/DSA/Code/5. Hashing
+# Install script for directory: E:/Placement/DSA/5. Hashing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Placement/DSA/Code/5. Hashing/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Placement/DSA/5. Hashing/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
