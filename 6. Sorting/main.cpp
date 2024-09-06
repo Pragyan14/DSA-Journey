@@ -1,4 +1,7 @@
 #include <iostream>
+
+#include "Bubble.h"
+#include "Insertion.h"
 #include "Selection.h"
 using namespace std;
 
@@ -11,7 +14,11 @@ int main() {
     for(int i=0;i<n;i++) {
         cin>>arr[i];
     }
-    Selection s;
-    s.display(arr,n);
+    // Bubble b;
+    // b.bubbleSort(arr,n);
+    // Selection s;
+    // s.display(arr,n);
+    Insertion i;
+    i.insertionSort(arr,n);
     return 0;
 }
