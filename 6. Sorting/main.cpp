@@ -3,6 +3,7 @@
 #include "Bubble.h"
 #include "Insertion.h"
 #include "Merge.h"
+#include "Quick.h"
 #include "Selection.h"
 using namespace std;
 
@@ -17,16 +18,25 @@ int main() {
         cin>>x;
         arr.push_back(x);
     }
+    for(auto it : arr) {
+        cout<<it<< " ";
+    }
+    cout<<endl;
     // Bubble b;
     // b.bubbleSort(arr,n);
     // Selection s;
     // s.display(arr,n);
     // Insertion i;
     // i.insertionSort(arr,n);
-    Merge m;
-    m.display(arr);
-    cout<<"\n";
-    m.mergeSort(arr,0,n-1);
-    m.display(arr);
+    // Merge m;
+    // m.display(arr);
+    // cout<<"\n";
+    // m.mergeSort(arr,0,n-1);
+    // m.display(arr);
+    Quick q;
+    q.quickSort(arr,0,n-1);
+    for(auto it : arr) {
+        cout<<it<< " ";
+    }
     return 0;
 }

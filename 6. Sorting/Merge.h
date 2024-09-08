@@ -17,24 +17,24 @@ public:
     }
     void merge(vector<int> &arr, int low, int mid, int high) {
         vector<int> temp;
-        int leftPointer = low;
-        int rightPointer = mid + 1;
-        while (leftPointer <= mid && rightPointer <= high) {
-            if (arr[leftPointer] >= arr[rightPointer]) {
-                temp.push_back(arr[rightPointer]);
-                rightPointer++;
+        int leftP = low;
+        int rightP = mid + 1;
+        while (leftP <= mid && rightP <= high) {
+            if (arr[leftP] >= arr[rightP]) {
+                temp.push_back(arr[rightP]);
+                rightP++;
             } else {
-                temp.push_back(arr[leftPointer]);
-                leftPointer++;
+                temp.push_back(arr[leftP]);
+                leftP++;
             }
         }
-        while (leftPointer<=mid) {
-            temp.push_back(arr[leftPointer]);
-            leftPointer++;
+        while (leftP<=mid) {
+            temp.push_back(arr[leftP]);
+            leftP++;
         }
-        while (rightPointer<=high) {
-            temp.push_back(arr[rightPointer]);
-            rightPointer++;
+        while (rightP<=high) {
+            temp.push_back(arr[rightP]);
+            rightP++;
         }
         for(int i=low;i<=high;i++) {
             arr[i] = temp[i-low];
