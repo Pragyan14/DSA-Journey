@@ -26,10 +26,9 @@ int main() {
     // b.bubbleSort(arr,n);
     // Selection s;
     // s.display(arr,n);
-    // Insertion i;
-    // i.insertionSort(arr,n);
+    Insertion i;
+    i.ris(arr,n);
     // Merge m;
-    // m.display(arr);
     // cout<<"\n";
     // m.mergeSort(arr,0,n-1);
     // m.display(arr);

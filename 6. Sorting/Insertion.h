@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
@@ -9,12 +10,7 @@ using namespace std;
 
 class Insertion {
 public:
-    void insertionSort(int arr[],int n){
-        cout<<"Array before:";
-        for(int i=0;i<n;i++) {
-            cout<<arr[i]<<" ";
-        }
-
+    void insertionSort(vector<int> &arr,int n){
         for(int i = 0;i<n;i++) {
             int j=i;
             while (j>0 && arr[j-1]>arr[j]) {
@@ -22,10 +18,16 @@ public:
                 j--;
             }
         }
+    }
+    void ris(vector<int> &arr,int n) {
+        if(n<=1) return;
 
-        cout<<"\nArray After:";
-        for(int i=0;i<n;i++) {
-            cout<<arr[i]<<" ";
+        ris(arr,n-1);
+
+        int j=n-2;
+        while(j>0 && arr[j-1]>arr[j]) {
+            swap(arr[j-1],arr[j]);
+            j--;
         }
     }
 };

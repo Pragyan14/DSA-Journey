@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "6__Sorting.exe"
+			"path" : "7__Array.exe"
 		},
 		{
-			"path" : "6__Sorting.pdb"
+			"path" : "7__Array.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "6__Sorting::@6890427a1f51a3e7e1df",
+	"id" : "7__Array::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "6__Sorting",
-	"nameOnDisk" : "6__Sorting.exe",
+	"name" : "7__Array",
+	"nameOnDisk" : "7__Array.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,15 +91,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1,
-				2,
-				3
-			]
 		}
 	],
 	"sources" : 
@@ -109,21 +100,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Selection.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Bubble.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Insertion.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "6__Sorting",
+					"name" : "7__Array",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "6__Sorting::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-6__Sorting-Debug-0ce4c1db910745a0aab7.json",
-					"name" : "6__Sorting",
+					"id" : "7__Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7__Array-Debug-ad1135a1c04c6ac89a0b.json",
+					"name" : "7__Array",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Placement/DSA/6. Sorting/cmake-build-debug",
-		"source" : "E:/Placement/DSA/6. Sorting"
+		"build" : "E:/Placement/DSA/7. Array/cmake-build-debug",
+		"source" : "E:/Placement/DSA/7. Array"
 	},
 	"version" : 
 	{
