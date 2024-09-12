@@ -8,4 +8,5 @@ add_executable(7__Array main.cpp
         problem_2.h
         problem_3.h
         problem_4.h
-        problem_5.h)
+        problem_5.h
+        problem_6.h)

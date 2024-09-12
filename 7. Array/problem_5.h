@@ -4,7 +4,8 @@ using namespace std;
 #ifndef PROBLEM_5_H
 #define PROBLEM_5_H
 
-
+// Left Rotate an Array by One
+// https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278
 
 class problem_5 {
 public:
