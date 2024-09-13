@@ -4,33 +4,23 @@ using namespace std;
 #ifndef PROBLEM_6_H
 #define PROBLEM_6_H
 
-// Left Rotate an Array by k
+// Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+// https://leetcode.com/problems/rotate-array/description/
 
 class problem_6 {
 public:
-    // Brute Approach
     void rotate(vector<int> &arr,int k) {
         int n = arr.size();
-        int temp[n];
-        k = k % n;
-        for(int i=0;i<k;i++) {
-            temp[i] = arr[i];
-        }
-        for(int i=k;i<n;i++) {
-            arr[i-k] = arr[i];
-        }
-        for(int i=n-k;i<n;i++) {
-            arr[i] = temp[i - (n - k)];
-        }
+        r(arr,0,n-k-1   );
+        r(arr,n-k,n-1);
+        r(arr,0,n-1);
     }
 
-    void Reverse(int arr[], int start, int end)
+    void r(vector<int> &arr, int start, int end)
     {
-        while (start <= end)
+        while (start < end)
         {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
+            swap(arr[start],arr[end]);
             start++;
             end--;
         }
