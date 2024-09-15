@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "7__Array_BINARY_DIR",
+			"name" : "0__Practice_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11,10 +11,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Placement/DSA/7. Array/cmake-build-debug"
+			"value" : "E:/Placement/DSA/0. Practice/cmake-build-debug"
 		},
 		{
-			"name" : "7__Array_IS_TOP_LEVEL",
+			"name" : "0__Practice_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "7__Array_SOURCE_DIR",
+			"name" : "0__Practice_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Placement/DSA/7. Array"
+			"value" : "E:/Placement/DSA/0. Practice"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Placement/DSA/7. Array/cmake-build-debug"
+			"value" : "e:/Placement/DSA/0. Practice/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Placement/DSA/7. Array/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/Placement/DSA/0. Practice/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Placement/DSA/7. Array"
+			"value" : "E:/Placement/DSA/0. Practice"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/7__Array"
+			"value" : "C:/Program Files (x86)/0__Practice"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/JetBrains/CLion 2024.1.5/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.1.5/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "7__Array"
+			"value" : "0__Practice"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
