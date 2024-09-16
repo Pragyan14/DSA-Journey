@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "7__Array.exe"
+			"path" : "5__Hashing.exe"
 		},
 		{
-			"path" : "7__Array.pdb"
+			"path" : "5__Hashing.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "7__Array::@6890427a1f51a3e7e1df",
+	"id" : "5__Hashing::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "7__Array",
-	"nameOnDisk" : "7__Array.exe",
+	"name" : "5__Hashing",
+	"nameOnDisk" : "5__Hashing.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,14 +96,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8
+				1
 			]
 		}
 	],
@@ -117,42 +110,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "problem_1.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_2.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_3.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_4.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_5.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_6.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "problem_7.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "linearSearch.h",
+			"path" : "E:/Placement/DSA/7. Array/problem_8.h",
 			"sourceGroupIndex" : 1
 		}
 	],

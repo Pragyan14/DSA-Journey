@@ -4,6 +4,8 @@
 #include "problem_5.h"
 #include "problem_6.h"
 #include "problem_7.h"
+#include "problem_8.h"
+#include "problem_9.h"
 #include "linearSearch.h"
 using namespace std;
 
@@ -37,9 +39,29 @@ int main() {
     //     cout << it << " ";
     // }
 
-    vector<int> arr = {13, 30, 22, 31, 42, 78, 10, 16};
-    linearSearch l;
-    cout<<l.ls(arr,arr.size(),100);
+    // vector<int> arr = {13, 30, 22, 31, 42, 78, 10, 16};
+    // linearSearch l;
+    // cout<<l.ls(arr,arr.size(),100);
+
+    problem_8 p8;
+    vector<int> a = {1,2,2,3,3,4,5,6};
+    vector<int> b = {2,3,3,5,6,6,7};
+    vector<int> result = p8.intersection(a,b);
+
+    for(auto it:result) {
+        cout<<it<<" ";
+    }
+
+    // problem_9 p9;
+    // vector<int> a = {1,1,2,3,5,5,5,10,10};
+    // vector<int> b = {2,4,7,10,10};
+    // vector<int> result = p9.unionOfArray(a,b);
+    //
+    // for(auto it:result) {
+    //     cout<<it<<" ";
+    // }
+
+
 
     return 0;
 }
