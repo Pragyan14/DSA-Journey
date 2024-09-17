@@ -1,13 +1,7 @@
 #include<bits/stdc++.h>
-
-#include "problem_4.h"
-#include "problem_5.h"
-#include "problem_6.h"
-#include "problem_7.h"
-#include "problem_8.h"
-#include "problem_9.h"
-#include "linearSearch.h"
 using namespace std;
+
+#include "missing.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -43,14 +37,14 @@ int main() {
     // linearSearch l;
     // cout<<l.ls(arr,arr.size(),100);
 
-    problem_8 p8;
-    vector<int> a = {1,2,2,3,3,4,5,6};
-    vector<int> b = {2,3,3,5,6,6,7};
-    vector<int> result = p8.intersection(a,b);
-
-    for(auto it:result) {
-        cout<<it<<" ";
-    }
+    // problem_8 p8;
+    // vector<int> a = {1,2,2,3,3,4,5,6};
+    // vector<int> b = {2,3,3,5,6,6,7};
+    // vector<int> result = p8.intersection(a,b);
+    //
+    // for(auto it:result) {
+    //     cout<<it<<" ";
+    // }
 
     // problem_9 p9;
     // vector<int> a = {1,1,2,3,5,5,5,10,10};
@@ -61,7 +55,11 @@ int main() {
     //     cout<<it<<" ";
     // }
 
+    vector<int> arr = {1,2,3,4};
+    missing m;
+    cout<<m.missingNumberBrute(arr,5);
 
+    // cout<<5*(5+1)/2;
 
     return 0;
 }
