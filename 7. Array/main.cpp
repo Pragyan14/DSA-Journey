@@ -2,6 +2,8 @@
 using namespace std;
 
 #include "missing.h"
+#include "maxConsecutiveOnes.h"
+#include "single.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -55,11 +57,17 @@ int main() {
     //     cout<<it<<" ";
     // }
 
-    vector<int> arr = {1,2,3,4};
-    missing m;
-    cout<<m.missingNumberBrute(arr,5);
+    // vector<int> arr = {1,2,3,4};
+    // missing m;
+    // cout<<m.missingNumberBrute(arr,5);
 
-    // cout<<5*(5+1)/2;
+    // vector<int> arr = {1,1,0,1,1,1,1,0,1,1};
+    // maxConsecutive m;
+    // cout<<m.findMaxConsecutiveOnes(arr);
+
+    vector<int> nums = {4,1,2,1,2};
+    single s;
+    cout<<s.optimalSingle(nums);
 
     return 0;
 }
