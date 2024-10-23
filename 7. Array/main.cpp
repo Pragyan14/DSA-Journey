@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "missing.h"
-#include "maxConsecutiveOnes.h"
-#include "single.h"
+#include "problem_10.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -65,9 +63,13 @@ int main() {
     // maxConsecutive m;
     // cout<<m.findMaxConsecutiveOnes(arr);
 
-    vector<int> nums = {4,1,2,1,2};
-    single s;
-    cout<<s.optimalSingle(nums);
+    // vector<int> nums = {4,1,2,1,2};
+    // single s;
+    // cout<<s.optimalSingle(nums);
+
+    vector<int> nums = {1,1,1};
+    problem_10 p10;
+    cout<<p10.longestSubarrayWithSumKWithNegative(nums,2);
 
     return 0;
 }
