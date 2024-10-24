@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_10.h"
+#include "problem_12.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -67,9 +67,16 @@ int main() {
     // single s;
     // cout<<s.optimalSingle(nums);
 
-    vector<int> nums = {1,1,1};
-    problem_10 p10;
-    cout<<p10.longestSubarrayWithSumKWithNegative(nums,2);
+    // vector<int> nums = {1,1,1};
+    // problem_10 p10;
+    // cout<<p10.longestSubarrayWithSumKWithNegative(nums,2);
+
+    vector<int> nums = {2,0,2,1,1,0};
+    problem_12 p12;
+    p12.sortColors(nums);
+    for(auto it:nums) {
+            cout<<it<<" ";
+    }
 
     return 0;
 }
