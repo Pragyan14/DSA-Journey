@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_13.h"
+#include "problem_15.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -78,9 +78,9 @@ int main() {
     //         cout<<it<<" ";
     // }
 
-    vector<int> nums = {2,1,2,2,1,2,3};
-    problem_13 p13;
-    cout<<p13.majortiyElements1(nums);
+    vector<int> nums = {4, 3, 1, 5, 6};
+    problem_15 p13;
+    cout<<p13.pairWithMaxSum(nums);
 
     return 0;
 }
