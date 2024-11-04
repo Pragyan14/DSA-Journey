@@ -113,7 +113,9 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				19,
+				20
 			]
 		}
 	],
@@ -213,6 +215,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "problem_15.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_17.h",
 			"sourceGroupIndex" : 1
 		}
 	],
