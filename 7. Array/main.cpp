@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_18.h"
+#include "problem_19.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -78,12 +78,16 @@ int main() {
     //         cout<<it<<" ";
     // }
 
-    vector<int> nums = {400};
-    problem_18 p18;
-    p18.replaceElements(nums);
-    for(auto it:nums) {
-        cout<<it<<" ";
-    }
+    // vector<int> nums = {400};
+    // problem_18 p18;
+    // p18.replaceElements(nums);
+    // for(auto it:nums) {
+    //     cout<<it<<" ";
+    // }
+
+    vector<int> nums = {1,2,0,1};
+    problem_19 p19;
+    cout<<p19.longestConsecutive1(nums);
 
     return 0;
 }
