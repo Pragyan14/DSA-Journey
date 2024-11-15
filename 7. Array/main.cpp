@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_19.h"
+#include "problem_22.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -85,9 +85,26 @@ int main() {
     //     cout<<it<<" ";
     // }
 
-    vector<int> nums = {1,2,0,1};
-    problem_19 p19;
-    cout<<p19.longestConsecutive1(nums);
+    // vector<int> nums = {1,2,0,1};
+    // problem_19 p19;
+    // cout<<p19.longestConsecutive1(nums);
 
+    // vector<int> nums = {1,3};
+    // problem_20 p20;
+    // cout<<p20.binarySearch(nums,2);
+
+    // vector<vector<int>> nums = {{1,1,1},{1,0,1},{1,1,1}};
+    // problem_21 p21;
+    // p21.setZeroes(nums);
+
+    vector<vector<int>> nums = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+    problem_22 p22;
+    int n = nums.size();
+    p22.rotateOptimal(nums);
+    for(int i=0;i<n;i++) {
+        for(int j=0;j<n;j++) {
+            cout<<nums[i][j]<<" ";
+        }
+    }
     return 0;
 }

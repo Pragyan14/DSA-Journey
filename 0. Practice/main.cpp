@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "07_Remove_Element.h"
+#include "10_merge.h"
 int main() {
 
     // digits d;
@@ -33,12 +33,30 @@ int main() {
     // }
     // cout<<r.fibonacci(6);
 
-    vector<int> nums = {3,2,2,3};
-    Remove_Element re;
-    cout<<re.removeElement(nums,3)<<endl;
-    for(auto it:nums) {
+    // vector<int> nums = {3,2,2,3};
+    // Remove_Element re;
+    // cout<<re.removeElement(nums,3)<<endl;
+    // for(auto it:nums) {
+    //     cout<<it<<" ";
+    // }
+
+    // p8 p8;
+    // vector<int> nums = {8,9,9,9};
+    // vector<int> ans = p8.plusOne(nums);
+    // for(auto it:ans) {
+    //     cout<<it<<" ";
+    // }
+
+    // p9 p9;
+    // vector<int> nums = {1,7,9,2,5};
+    // cout<<p9.countFairPairs(nums,11,11);
+
+    vector<int> nums1 = {1,2,3,0,0,0};
+    vector<int> nums2 = {2,5,6};
+    p10 p10;
+    p10.merge(nums1,3,nums2,3);
+    for(auto it:nums1) {
         cout<<it<<" ";
     }
-
     return 0;
 }
