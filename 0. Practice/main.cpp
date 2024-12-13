@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "10_merge.h"
+#include "11_Contains_Duplicate.h"
 int main() {
 
     // digits d;
@@ -51,12 +51,17 @@ int main() {
     // vector<int> nums = {1,7,9,2,5};
     // cout<<p9.countFairPairs(nums,11,11);
 
-    vector<int> nums1 = {1,2,3,0,0,0};
-    vector<int> nums2 = {2,5,6};
-    p10 p10;
-    p10.merge(nums1,3,nums2,3);
-    for(auto it:nums1) {
-        cout<<it<<" ";
-    }
+    // vector<int> nums1 = {1,2,3,0,0,0};
+    // vector<int> nums2 = {2,5,6};
+    // p10 p10;
+    // p10.merge(nums1,3,nums2,3);
+    // for(auto it:nums1) {
+    //     cout<<it<<" ";
+    // }
+
+    vector<int> nums = {1,2,3,4};
+    duplicate d;
+    cout<<d.containsDuplicate(nums);
+
     return 0;
 }

@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_22.h"
+#include "problem_25.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -97,14 +97,18 @@ int main() {
     // problem_21 p21;
     // p21.setZeroes(nums);
 
-    vector<vector<int>> nums = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-    problem_22 p22;
-    int n = nums.size();
-    p22.rotateOptimal(nums);
-    for(int i=0;i<n;i++) {
-        for(int j=0;j<n;j++) {
-            cout<<nums[i][j]<<" ";
-        }
-    }
+    // vector<vector<int>> nums = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+    // problem_22 p22;
+    // int n = nums.size();
+    // p22.rotateOptimal(nums);
+    // for(int i=0;i<n;i++) {
+    //     for(int j=0;j<n;j++) {
+    //         cout<<nums[i][j]<<" ";
+    //     }
+    // }
+
+    problem_25 p25;
+    p25.getRow(3);
+
     return 0;
 }
