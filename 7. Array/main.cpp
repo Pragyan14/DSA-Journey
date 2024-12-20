@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "problem_29.h"
+#include "problem_30.h"
 
 int main() {
     // vector<int> arr = {1, 2, 2 ,3, 3 ,3 ,4 ,4 ,5, 5 };
@@ -107,9 +107,13 @@ int main() {
     //     }
     // }
 
-    vector<int> nums = {1,1,1,0};
-    problem_29 p29;
-    cout<<p29.threeSumClosest(nums,-100);
+    // vector<int> nums = {1,1,1,0};
+    // problem_29 p29;
+    // cout<<p29.threeSumClosest(nums,-100);
 
+    vector<int> nums = {1,1,1,0};
+    problem_30 p30;
+    cout<<p30.isValid("){");
+    // p30.isValid("{}()");
     return 0;
 }
