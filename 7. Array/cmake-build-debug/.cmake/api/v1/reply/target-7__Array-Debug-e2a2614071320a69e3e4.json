@@ -131,7 +131,11 @@
 				33,
 				34,
 				35,
-				36
+				36,
+				37,
+				38,
+				39,
+				40
 			]
 		}
 	],
@@ -321,6 +325,26 @@
 		{
 			"backtrace" : 1,
 			"path" : "problem_33.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_34.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_35.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_36.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "problem_37.h",
 			"sourceGroupIndex" : 1
 		}
 	],
