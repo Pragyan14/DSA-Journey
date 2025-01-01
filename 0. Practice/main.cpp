@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include "11_Contains_Duplicate.h"
+#include "12_MedianOfSorted.h"
 int main() {
 
     // digits d;
@@ -59,9 +59,14 @@ int main() {
     //     cout<<it<<" ";
     // }
 
-    vector<int> nums = {1,2,3,4};
-    duplicate d;
-    cout<<d.containsDuplicate(nums);
+    // vector<int> nums = {1,2,3,4};
+    // duplicate d;
+    // cout<<d.containsDuplicate(nums);
+
+    vector<int> nums1 = {1,2};
+    vector<int> nums2 = {3};
+    p12 p12;
+    p12.findMedianSortedArrays(nums1,nums2);
 
     return 0;
 }

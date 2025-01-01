@@ -1,7 +1,8 @@
 # ninja log v6
-12	3555	7472512495832751	CMakeFiles/5__Hashing.dir/main.cpp.obj	ea69932d2d691239
-12	199	7472564599507548	5__Hashing.exe	9597107e819cd02e
-3	324	7482974965818848	build.ninja	d47f405e94871d02
-13	789	7472563213129203	CMakeFiles/5__Hashing.dir/E_/Placement/DSA/6._Sorting/main.cpp.obj	8fd8af2a5e3c90f3
 11	2295	7519679164794434	CMakeFiles/5__Hashing.dir/main.cpp.obj	ea69932d2d691239
 2295	2568	7519679187647166	5__Hashing.exe	9597107e819cd02e
+3	324	7570746599984519	build.ninja	d47f405e94871d02
+13	789	7472563213129203	CMakeFiles/5__Hashing.dir/E_/Placement/DSA/6._Sorting/main.cpp.obj	8fd8af2a5e3c90f3
+12	1685	7570746995984726	CMakeFiles/5__Hashing.dir/E_/Placement/DSA/8._Binary_Search/B1_binarySearch.cpp.obj	18e81d12b4906c5d
+7	1736	7570746995934726	CMakeFiles/5__Hashing.dir/main.cpp.obj	ea69932d2d691239
+7	1632	7570747125886717	CMakeFiles/5__Hashing.dir/E_/Placement/DSA/8._Binary_Search/B1_binarySearch.cpp.obj	18e81d12b4906c5d
