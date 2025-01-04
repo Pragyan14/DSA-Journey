@@ -11,4 +11,10 @@ add_executable(8__Binary_Search main.cpp
         B5_ceil.h
         B6_countFreq.h
         B7_Floor2.h
-        B8_search.h)
+        B8_search.h
+        B9_singleNonDuplicate.h
+        B10_findPeakElement.h
+        B11_floorSqrt.h
+        B12_kokoEating.h
+        B13_minDays.h
+        B14_smallestDivisor.h)
