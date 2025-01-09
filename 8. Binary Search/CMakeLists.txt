@@ -17,4 +17,10 @@ add_executable(8__Binary_Search main.cpp
         B11_floorSqrt.h
         B12_kokoEating.h
         B13_minDays.h
-        B14_smallestDivisor.h)
+        B14_smallestDivisor.h
+        B15_shipWithinDays.h
+        B16_findKthPositive.h
+        B17_aggressiveCows.h
+        B18_findMin.h
+        B19_findPages.h
+        B20_splitArray.h)

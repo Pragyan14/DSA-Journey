@@ -2,7 +2,7 @@
 using namespace std;
 
 #include "B7_Floor2.h"
-#include "B14_smallestDivisor.h"
+#include "B18_findMin.h"
 
 int main() {
 
@@ -15,8 +15,18 @@ int main() {
     // B7 b7;
     // b7.getFloorAndCeil(7,nums);
 
-    vector<int> nums = {1,2,5,9};
-    B14 b14;
-    cout<<b14.smallestDivisor(nums,7);
+    // vector<int> nums = {1,2,5,9};
+    // B14 b14;
+    // cout<<b14.smallestDivisor(nums,7);
+
+    // vector<int> nums = {0,3,4,7,10,9};
+    // B17 b17;
+    // cout<<b17.aggressiveCows(nums,4);
+
+    vector<int> nums = {3,2,1};
+    B18 b18;
+    cout<<b18.findMin(nums);
+
+    return 0;
 
 }
