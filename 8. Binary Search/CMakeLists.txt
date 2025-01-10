@@ -23,4 +23,6 @@ add_executable(8__Binary_Search main.cpp
         B17_aggressiveCows.h
         B18_findMin.h
         B19_findPages.h
-        B20_splitArray.h)
+        B20_splitArray.h
+        B21_minimiseMaxDistance.h
+        B22_findMedianSortedArrays.h)
