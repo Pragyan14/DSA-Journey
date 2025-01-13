@@ -25,4 +25,9 @@ add_executable(8__Binary_Search main.cpp
         B19_findPages.h
         B20_splitArray.h
         B21_minimiseMaxDistance.h
-        B22_findMedianSortedArrays.h)
+        B22_findMedianSortedArrays.h
+        B23_kthElement.h
+        B24_rowWithMax1s.h
+        B25_searchMatrix.h
+        B24_searchMatrix.h
+        B25_findPeakGrid.h)
