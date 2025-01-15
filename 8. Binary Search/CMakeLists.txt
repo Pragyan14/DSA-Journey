@@ -30,4 +30,7 @@ add_executable(8__Binary_Search main.cpp
         B24_rowWithMax1s.h
         B25_searchMatrix.h
         B24_searchMatrix.h
-        B25_findPeakGrid.h)
+        B25_findPeakGrid.h
+        B26_intersect.h
+        B27_arrangeCoins.h
+        B28_nextGreatestLetter.h)

@@ -1,14 +1,25 @@
 #include <iostream>
 using namespace std;
 
-#include "B24_rowWithMax1s.h"
+#include "B28_nextGreatestLetter.h"
 
 int main() {
+
+    vector<char> nums = {'x','x','y','y'};
+    B28 b28;
+    cout<<b28.nextGreatestLetter(nums,'z');
+
+    // vector<int> nums1 = {1,2,2,1};
+    // vector<int> nums2 = {2,2};
+    // B26 b26;
+    // vector<int> ans = b26.intersect(nums1,nums2);
+    // for(auto it: ans) {
+    //     cout<<it<<" ";
+    // }
 
     // vector<int> nums = {1,2,3,4,5,6,7,8};
     // B1 b1;
     // cout<<b1.search(nums,3);
-    // return 0;
 
     // vector<int> nums = {5, 6, 8, 8, 6, 5, 5, 6};
     // B7 b7;
@@ -31,9 +42,9 @@ int main() {
     // B23 b23;
     // cout<<b23.kthElement(nums1,nums2,7);
 
-    vector<vector<int>> nums = {{0,1,1,1}, {0,0,1,1}, {1,1,1,1}, {0,0,0,0},{0,0,1,1}};
-    B24 b24;
-    cout<<b24.rowWithMax1s(nums);
+    // vector<vector<int>> nums = {{0,1,1,1}, {0,0,1,1}, {1,1,1,1}, {0,0,0,0},{0,0,1,1}};
+    // B24 b24;
+    // cout<<b24.rowWithMax1s(nums);
 
     return 0;
 
